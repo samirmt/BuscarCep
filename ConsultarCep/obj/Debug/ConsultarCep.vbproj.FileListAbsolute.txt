@@ -1,0 +1,11 @@
+d:\documentos\visual studio 2015\Projects\ConsultarCep\ConsultarCep\bin\Debug\ConsultarCep.exe.config
+d:\documentos\visual studio 2015\Projects\ConsultarCep\ConsultarCep\bin\Debug\ConsultarCep.exe
+d:\documentos\visual studio 2015\Projects\ConsultarCep\ConsultarCep\bin\Debug\ConsultarCep.pdb
+d:\documentos\visual studio 2015\Projects\ConsultarCep\ConsultarCep\bin\Debug\ConsultarCep.xml
+d:\documentos\visual studio 2015\Projects\ConsultarCep\ConsultarCep\obj\Debug\ConsultarCep.vbprojResolveAssemblyReference.cache
+d:\documentos\visual studio 2015\Projects\ConsultarCep\ConsultarCep\obj\Debug\ConsultarCep.Form1.resources
+d:\documentos\visual studio 2015\Projects\ConsultarCep\ConsultarCep\obj\Debug\ConsultarCep.Resources.resources
+d:\documentos\visual studio 2015\Projects\ConsultarCep\ConsultarCep\obj\Debug\ConsultarCep.vbproj.GenerateResource.Cache
+d:\documentos\visual studio 2015\Projects\ConsultarCep\ConsultarCep\obj\Debug\ConsultarCep.exe
+d:\documentos\visual studio 2015\Projects\ConsultarCep\ConsultarCep\obj\Debug\ConsultarCep.xml
+d:\documentos\visual studio 2015\Projects\ConsultarCep\ConsultarCep\obj\Debug\ConsultarCep.pdb

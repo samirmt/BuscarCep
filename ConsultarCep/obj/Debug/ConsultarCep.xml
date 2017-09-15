@@ -1,0 +1,1271 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ConsultarCep
+</name>
+</assembly>
+<members>
+<member name="T:ConsultarCep.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ConsultarCep.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ConsultarCep.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ConsultarCep.WSCorreios.Exception">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.Exception.message">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.SQLException">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.SQLException.errorCode">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.SQLException.errorCodeSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.SQLException.sQLState">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.SQLException.message">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.embalagemLRSMaster">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.embalagemLRSMaster.codigo">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.embalagemLRSMaster.nome">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.embalagemLRSMaster.tipo">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.pedidoInformacaoRegistro">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacaoRegistro.cliente">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacaoRegistro.codigoRegistro">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacaoRegistro.conta">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacaoRegistro.conteudoObjeto">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacaoRegistro.cpfCnpj">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacaoRegistro.destinatario">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacaoRegistro.embalagem">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacaoRegistro.motivo">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacaoRegistro.motivoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacaoRegistro.observacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacaoRegistro.postagem">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacaoRegistro.remetente">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacaoRegistro.servico">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacaoRegistro.servicoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacaoRegistro.tipoDocumento">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.cliente">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cliente.numeroContrato">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cliente.possuiContrato">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.conta">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.conta.codigoBanco">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.conta.nomeBanco">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.conta.numeroAgencia">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.conta.numeroConta">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.destinatario">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.pessoa">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoa.bairro">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoa.cep">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoa.cidade">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoa.complemento">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoa.ddd">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoa.endereco">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoa.nome">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoa.numero">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoa.pais">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoa.telefone">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoa.uf">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.remetente">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.remetente.email">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.remetente.empresa">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.remetente.fax">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.postagem">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.postagem.agencia">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.postagem.avisoRecebimento">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.postagem.data">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.postagem.local">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.postagem.valorDeclarado">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.pedidoInformacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacao.id">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacao.idSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacao.usuario">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.pedidoInformacaoConsulta">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacaoConsulta.numero">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pedidoInformacaoConsulta.numeroSpecified">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.retorno">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.retorno.codigoPI">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.retorno.codigoPISpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.retorno.codigoRegistro">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.retorno.codigoRetorno">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.retorno.dataPrazoResposta">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.retorno.dataRegistro">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.retorno.dataResposta">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.retorno.dataUltimaRecorrencia">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.retorno.id">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.retorno.idSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.retorno.mensagemRetorno">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.retorno.resposta">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.enderecoERP">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.enderecoERP.bairro">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.enderecoERP.cep">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.enderecoERP.cidade">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.enderecoERP.complemento">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.enderecoERP.complemento2">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.enderecoERP.end">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.enderecoERP.id">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.enderecoERP.uf">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.enderecoERP.unidadesPostagem">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.unidadePostagemERP">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.unidadePostagemERP.diretoriaRegional">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.unidadePostagemERP.endereco">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.unidadePostagemERP.id">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.unidadePostagemERP.nome">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.unidadePostagemERP.status">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.unidadePostagemERP.tipo">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.mensagemRetornoPIMaster">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.mensagemRetornoPIMaster.codigo">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.mensagemRetornoPIMaster.codigoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.mensagemRetornoPIMaster.mensagem">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.statusCartao">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.statusCartao.Desconhecido">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.statusCartao.Normal">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.statusCartao.Suspenso">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.statusCartao.Cancelado">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.statusCartao.Irregular">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.coletaSimultaneaTO">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.coletaSimultaneaTO.obj">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.coletaSimultaneaTO.obs">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.coletaTO">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.coletaTO.cklist">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.coletaTO.descricao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.coletaTO.id_cliente">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.coletaTO.produto">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.coletaTO.remetente">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.coletaTO.tipo">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.coletaTO.valor_declarado">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.produtoTO">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.produtoTO.codigo">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.produtoTO.codigoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.produtoTO.qtd">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.produtoTO.qtdSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.produtoTO.tipo">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.produtoTO.tipoSpecified">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.remetenteTO">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.remetenteTO.identificacao">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.pessoaTO">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoaTO.bairro">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoaTO.cep">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoaTO.cidade">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoaTO.complemento">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoaTO.ddd">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoaTO.email">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoaTO.logradouro">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoaTO.nome">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoaTO.numero">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoaTO.referencia">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoaTO.telefone">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.pessoaTO.uf">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.coletaReversaTO">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.coletaReversaTO.ag">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.coletaReversaTO.ar">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.coletaReversaTO.arSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.coletaReversaTO.cartao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.coletaReversaTO.cartaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.coletaReversaTO.numero">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.coletaReversaTO.numeroSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.coletaReversaTO.obj_col">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.coletaReversaTO.servico_adicional">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.objetoTO">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoTO.desc">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoTO.entrega">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoTO.id">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoTO.item">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoTO.num">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.motivoPIMaster">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.motivoPIMaster.codigo">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.motivoPIMaster.codigoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.motivoPIMaster.descricao">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.objetoPostal">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoPostal.codigoEtiqueta">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoPostal.dataAtualizacaoCliente">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoPostal.dataAtualizacaoClienteSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoPostal.dataCancelamentoEtiqueta">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoPostal.dataCancelamentoEtiquetaSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoPostal.dataInclusao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoPostal.dataInclusaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoPostal.objetoPostalPK">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoPostal.plpNu">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoPostal.plpNuSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoPostal.preListaPostagem">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoPostal.statusEtiqueta">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoPostal.statusEtiquetaSpecified">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.objetoPostalPK">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoPostalPK.codigoEtiqueta">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoPostalPK.plpNu">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.preListaPostagem">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.preListaPostagem.cartaoPostagem">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.preListaPostagem.dataAtualizacaoCliente">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.preListaPostagem.dataAtualizacaoClienteSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.preListaPostagem.dataAtualizacaoSara">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.preListaPostagem.dataAtualizacaoSaraSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.preListaPostagem.dataFechamento">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.preListaPostagem.dataFechamentoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.preListaPostagem.dataPostagem">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.preListaPostagem.dataPostagemSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.preListaPostagem.dataPostagemSara">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.preListaPostagem.dataPostagemSaraSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.preListaPostagem.objetosPostais">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.preListaPostagem.plpCliente">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.preListaPostagem.plpNu">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.preListaPostagem.plpXml">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.preListaPostagem.plpXmlRetorno">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.preListaPostagem.status">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.preListaPostagem.statusSpecified">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.cartaoPostagemERP">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.codigoAdministrativo">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.contratos">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.dataAtualizacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.dataAtualizacaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.dataVigenciaFim">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.dataVigenciaFimSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.dataVigenciaInicio">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.dataVigenciaInicioSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.datajAtualizacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.datajAtualizacaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.datajVigenciaFim">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.datajVigenciaFimSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.datajVigenciaInicio">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.datajVigenciaInicioSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.descricaoStatusCartao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.descricaoUnidadePostagemGenerica">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.horajAtualizacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.horajAtualizacaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.numero">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.servicos">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.statusCartaoPostagem">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.statusCodigo">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.unidadeGenerica">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.cartaoPostagemERP.unidadesPostagem">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.contratoERP">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.cartoesPostagem">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.cliente">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.codigoCliente">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.codigoDiretoria">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.contratoPK">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.dataAtualizacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.dataAtualizacaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.dataAtualizacaoDDMMYYYY">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.dataVigenciaFim">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.dataVigenciaFimSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.dataVigenciaFimDDMMYYYY">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.dataVigenciaInicio">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.dataVigenciaInicioSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.dataVigenciaInicioDDMMYYYY">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.datajAtualizacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.datajAtualizacaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.datajVigenciaFim">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.datajVigenciaFimSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.datajVigenciaInicio">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.datajVigenciaInicioSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.descricaoDiretoriaRegional">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.descricaoStatus">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.diretoriaRegional">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.horajAtualizacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.horajAtualizacaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERP.statusCodigo">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.clienteERP">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.clienteERP.cnpj">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.clienteERP.contratos">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.clienteERP.dataAtualizacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.clienteERP.dataAtualizacaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.clienteERP.datajAtualizacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.clienteERP.datajAtualizacaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.clienteERP.descricaoStatusCliente">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.clienteERP.gerenteConta">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.clienteERP.horajAtualizacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.clienteERP.horajAtualizacaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.clienteERP.id">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.clienteERP.inscricaoEstadual">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.clienteERP.nome">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.clienteERP.statusCodigo">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.gerenteConta">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.gerenteConta.clientesVisiveis">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.gerenteConta.dataAtualizacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.gerenteConta.dataAtualizacaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.gerenteConta.dataInclusao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.gerenteConta.dataInclusaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.gerenteConta.dataSenha">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.gerenteConta.dataSenhaSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.gerenteConta.login">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.gerenteConta.matricula">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.gerenteConta.senha">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.gerenteConta.status">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.gerenteConta.statusSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.gerenteConta.tipoGerente">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.gerenteConta.tipoGerenteSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.gerenteConta.usuariosInstalacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.gerenteConta.validade">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.statusGerente">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.statusGerente.Ativo">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.statusGerente.Inativo">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.tipoGerente">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.tipoGerente.GerenteConta">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.tipoGerente.GerenteContaMaster">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.usuarioInstalacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.usuarioInstalacao.dataAtualizacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.usuarioInstalacao.dataAtualizacaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.usuarioInstalacao.dataInclusao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.usuarioInstalacao.dataInclusaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.usuarioInstalacao.dataSenha">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.usuarioInstalacao.dataSenhaSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.usuarioInstalacao.gerenteMaster">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.usuarioInstalacao.hashSenha">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.usuarioInstalacao.id">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.usuarioInstalacao.idSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.usuarioInstalacao.login">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.usuarioInstalacao.nome">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.usuarioInstalacao.parametros">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.usuarioInstalacao.senha">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.usuarioInstalacao.status">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.usuarioInstalacao.statusSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.usuarioInstalacao.validade">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.parametroMaster">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.parametroMaster.prmCoParametro">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.parametroMaster.prmTxParametro">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.parametroMaster.prmTxValor">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.statusUsuario">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.statusUsuario.Ativo">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.statusUsuario.Inativo">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.contratoERPPK">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERPPK.diretoria">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.contratoERPPK.numero">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.servicoERP">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoERP.codigo">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoERP.dataAtualizacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoERP.dataAtualizacaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoERP.datajAtualizacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoERP.datajAtualizacaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoERP.descricao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoERP.horajAtualizacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoERP.horajAtualizacaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoERP.id">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoERP.servicoSigep">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoERP.servicosAdicionais">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoERP.tipo1Codigo">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoERP.tipo1Descricao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoERP.tipo2Codigo">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoERP.tipo2Descricao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoERP.vigencia">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.servicoSigep">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoSigep.categoriaServico">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoSigep.categoriaServicoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoSigep.chancela">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoSigep.exigeDimensoes">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoSigep.exigeDimensoesSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoSigep.exigeValorCobrar">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoSigep.exigeValorCobrarSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoSigep.imitm">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoSigep.servico">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoSigep.servicoERP">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoSigep.ssiCoCodigoPostal">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.categoriaServico">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.categoriaServico.SEM_CATEGORIA">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.categoriaServico.PAC">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.categoriaServico.SEDEX">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.categoriaServico.CARTA_REGISTRADA">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.categoriaServico.SERVICO_COM_RESTRICAO">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.categoriaServico.REVERSO">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.chancelaMaster">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.chancelaMaster.chancela">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.chancelaMaster.dataAtualizacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.chancelaMaster.dataAtualizacaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.chancelaMaster.descricao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.chancelaMaster.id">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.chancelaMaster.servicosSigep">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.servicoAdicionalERP">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoAdicionalERP.codigo">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoAdicionalERP.dataAtualizacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoAdicionalERP.dataAtualizacaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoAdicionalERP.datajAtualizacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoAdicionalERP.datajAtualizacaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoAdicionalERP.descricao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoAdicionalERP.horajAtualizacao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoAdicionalERP.horajAtualizacaoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoAdicionalERP.id">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoAdicionalERP.idSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.servicoAdicionalERP.sigla">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.vigenciaERP">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.vigenciaERP.dataFinal">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.vigenciaERP.dataFinalSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.vigenciaERP.dataInicial">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.vigenciaERP.dataInicialSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.vigenciaERP.datajFim">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.vigenciaERP.datajFimSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.vigenciaERP.datajIni">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.vigenciaERP.datajIniSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.vigenciaERP.id">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.vigenciaERP.idSpecified">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.statusPlp">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.statusPlp.Aberta">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.statusPlp.Fechada">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.statusPlp.Postada">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.statusObjetoPostal">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.statusObjetoPostal.EmBranco">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.statusObjetoPostal.Postado">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.statusObjetoPostal.Cancelado">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.statusObjetoPostal.Estorno">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.retornoCancelamentoTO">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.retornoCancelamentoTO.cod_erro">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.retornoCancelamentoTO.codigo_administrativo">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.retornoCancelamentoTO.data">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.retornoCancelamentoTO.hora">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.retornoCancelamentoTO.msg_erro">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.retornoCancelamentoTO.objeto_postal">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.objetoSimplificadoTO">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoSimplificadoTO.datahora_cancelamento">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoSimplificadoTO.numero_pedido">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoSimplificadoTO.numero_pedidoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.objetoSimplificadoTO.status_pedido">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.tipoBloqueio">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.tipoBloqueio.FRAUDE_BLOQUEIO">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.tipoBloqueio.EXTRAVIO_VAREJO_PRE_INDENIZADO">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.tipoBloqueio.EXTRAVIO_VAREJO_POS_INDENIZADO">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.tipoBloqueio.EXTRAVIO_CORPORATIVO">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.tipoBloqueio.INTERNACIONAL_LDI">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.acao">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.acao.DEVOLVIDO_AO_REMETENTE">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.acao.ENCAMINHADO_PARA_REFUGO">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.acao.REINTEGRADO_E_DEVOLVIDO_AO_REMETENTE">
+<remarks/>
+</member>
+<member name="F:ConsultarCep.WSCorreios.acao.DESBLOQUEADO">
+<remarks/>
+</member>
+<member name="T:ConsultarCep.WSCorreios.assuntoPIMaster">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.assuntoPIMaster.codigo">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.assuntoPIMaster.codigoSpecified">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.assuntoPIMaster.descricao">
+<remarks/>
+</member>
+<member name="P:ConsultarCep.WSCorreios.assuntoPIMaster.tipo">
+<remarks/>
+</member>
+</members>
+</doc>
